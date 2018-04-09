@@ -1,0 +1,31 @@
+body{
+	width: 100%
+	max-width: 960px;
+}
+
+h1 {
+	font-family: opensans;
+	font-size: 250px
+}
+
+@-webkit-keyframes amanda {
+	40%{
+		background-color: blue;
+		width: 300px;
+	}
+	30% {
+		background-color: pink;
+		transform: rotate(60deg);
+	}
+}
+
+#Experiment {
+	width: 200px;
+	height: 500px;
+	-webkit-animation-name: amanda;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	background-color: pink;
+	transform: rotate(180deg);
+
+}
